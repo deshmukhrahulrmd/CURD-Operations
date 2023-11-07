@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+body {
+  background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.student-container {
+  width: 500px;
+  height: auto;
+  background-color: whitesmoke;
+  margin: 20px 20%;
+  padding: 20px;
+  border-radius: 20px; 
+  background: #E0EAFC; 
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+}
+
+label{
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Garamond;
+}
+
+input {
+  height: 40px;
+  width: 100%;
+  padding-left: 20px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  /*border-bottom: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;*/
+  box-shadow: 0px 5px 6px 2px lightgray;
+  margin-top: 10px;
+}
+.btn input {
+  width: 40%;
+  margin: 20px;
+  border: none;
+  font-family: Courier New;
+  background: #4B79A1;
+  background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+  background: linear-gradient(to right, #283E51, #4B79A1);
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.btn input:hover {
+  transform: scale(0.9);
+  box-shadow: 0px 0px 8px grey;
+}
+h2 {
+  font-size: 25px;
+  text-decoration: underline;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+  font-family: Courier New;
+  margin-bottom: 20px;
+}
+.student-data {
+  margin-top: 70px;
+  padding: 20px;
+  width: 80%;
+  height: auto;
+  background-color: white;
+  margin-left: 10%;
+  border-radius: 40px;
+  background: #D3CCE3;  
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+}
+
+th{
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 25px;
+  text-decoration: 2px underline gray;
+}
